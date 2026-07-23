@@ -1,7 +1,24 @@
 aid: all-def-digital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/all-def-digital.png
 name: All Def Digital
-description: All Def Digital is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: All Def (formerly All Def Digital) is a YouTube-focused digital content studio founded
+  by Russell Simmons that produces unscripted original programming for Gen Z, Millennial, and
+  multicultural audiences across comedy, food, hip-hop, and culture. Its owned-and-operated channels
+  have amassed 15M+ fans and more than 2 billion video views, and it produces branded content for
+  partners including Sprite, Snickers, Hyundai, Lexus, and McDonald's. All Def is a portfolio company
+  of a16z, surfaced in the API Evangelist network; as of this enrichment pass it publishes no public
+  developer API, documentation, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/all-def-digital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +31,25 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Media
+- Entertainment
+- Digital Media
+- Video
+- Content
+- Hip-Hop
+- Comedy
 apis: []
+common:
+- type: Website
+  url: https://alldef.com
+  name: All Def
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
